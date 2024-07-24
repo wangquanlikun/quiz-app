@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题库答题模板</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-number"></div>
+        <div id="question-container"></div>
+        <div id="options-container"></div>
+        <div id="confirm-container" class="hidden">
+            <button id="confirm-button">确认答案</button>
+        </div>
+        <div id="answer-container" class="hidden"></div>
+        <div id="explanation-container" class="hidden"></div>
+        <input type="number" id="question-input" min="1" placeholder="跳转序号">
+        <button onclick="goToQuestion()">跳转题目</button>
+        <div>
+            <button id="prev-button" onclick="showPrevQuestion()">上一题</button>
+            <button id="next-button" onclick="showNextQuestion()">下一题</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

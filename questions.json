@@ -1,0 +1,51 @@
+[
+    {
+        "question": "以下哪种排序算法的平均时间复杂度最低？",
+        "options": [
+            "冒泡排序",
+            "快速排序",
+            "选择排序",
+            "插入排序"
+        ],
+        "answer": "B",
+        "explanation": "数据结构与算法教材",
+        "answer_num": 1
+    },
+    {
+        "question": "Python 中用来定义函数的关键字是？",
+        "options": [
+            "define",
+            "function",
+            "lambda",
+            "def"
+        ],
+        "answer": "D",
+        "explanation": "Python官方文档",
+        "answer_num": 1
+    },
+    {
+        "question": "HTTP 状态码 404 表示什么？",
+        "options": [
+            "服务器内部错误",
+            "请求成功",
+            "资源未找到",
+            "未授权"
+        ],
+        "answer": "C",
+        "explanation": "HTTP/1.1 规范",
+        "answer_num": 1
+    },
+    {
+        "question": "这是一个多选题模板，请给出复数个选项。",
+        "options": [
+            "请选择我",
+            "请选择B选项",
+            "请不要选择我",
+            "请选择至少4个选项",
+            "QAQ"
+        ],
+        "answer": "ABDE",
+        "explanation": "Ciallo～(∠・ω< )⌒★",
+        "answer_num": 4
+    }
+]
